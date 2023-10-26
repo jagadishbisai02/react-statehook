@@ -45,11 +45,13 @@ const Comments = () => {
           type="text"
           placeholder="Your name"
           onChange={onChangeName}
+          value={name}
         />
         <CommentTextInput
           placeholder="Your comment"
           rows="6"
           onChange={onChangeCommentText}
+          value={commentText}
         />
         <CommentButton type="submit">Comment</CommentButton>
       </Form>
